@@ -1,0 +1,11 @@
+[package]
+name = "ulap-server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.37.0", features = ["full", "rt-multi-thread"] }
+axum = "0.7.5"
+serde = "1.0.202"
+serde_json = "1.0.117"
+uuid = "1.8.0"
